@@ -16,7 +16,7 @@ const define = {
 };
 
 const entryPoints = {
-  application: entryPoint("app/javascript/packs/application.js"),
+  application: entryPoint("app/javascript/packs/application.jsx"),
 };
 
 const extensions = [

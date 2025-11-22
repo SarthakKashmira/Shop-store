@@ -19,13 +19,17 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^16.1.1",
     "postcss-preset-env": "^10.4.0",
+    "prop-types": "^15.8.1",
     "ramda": "^0.32.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
     "sass": "^1.94.2",
     "stream-browserify": "^3.0.0",
     "vite-plugin-svgr": "^4.5.0"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.22",
     "tailwindcss": "3",
     "vite": "^5.0.0",

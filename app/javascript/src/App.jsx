@@ -1,13 +1,13 @@
 import React from "react";
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" render={() => <div>Home</div>} />
-        <Route exact path="/about" render={() => <div>About</div>} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<div>Home</div>} />
+        <Route path="/about" element={<div>About</div>} />
+      </Routes>
     </Router>
   );
 };
